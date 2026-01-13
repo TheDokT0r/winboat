@@ -176,7 +176,7 @@ func applyUpdate(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	r.ParseMultipartForm(100 << 20) // Limit upload size to 100MB
+	r.ParseMultipartForm(100 * MB) // Limit upload size to 100MB
 	var buf bytes.Buffer
 
 	// Grab the file

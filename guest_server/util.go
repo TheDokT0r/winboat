@@ -8,6 +8,8 @@ import (
 	"os"
 )
 
+const MB = 1 << 20 // A basic util for calculating amount of MB
+
 func checkErr(err error) {
 	if err != nil {
 		log.Fatal(err)
