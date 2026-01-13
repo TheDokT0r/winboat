@@ -19,6 +19,7 @@
         "email": "staff@winboat.app"
     },
     "devDependencies": {
+        "@types/node": "^25.0.7",
         "@types/node-fetch": "^2.6.12",
         "@types/screenshot-desktop": "^1.12.3",
         "@types/turndown": "^5.0.5",
